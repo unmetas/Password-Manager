@@ -4,13 +4,11 @@
 #include <string>
 #include <cstring>
 
-
 using namespace std;
 
 
 int main(){
     string usrname, pswd;
-    string str = usrname;
     bool check1 = true;
     fstream myFile;
     // Conformation and getting Usernames/Passwords
@@ -39,22 +37,8 @@ int main(){
             }
         }
     }
-    printf("\ndgjhagh\n");
-    // Turning string vars into char vars
-    const int length = str.length(); 
-  
-    // declaring character array (+1 for null terminator) 
-    char* char_array = new char[length + 1]; 
-  
-    // copying the contents of the 
-    // string to char array 
-    strcpy(char_array, str.c_str()); 
-  
-    for (int i = 0; i < length; i++) 
-    { 
-        std::cout << char_array[i]; 
-    } 
 
+    printf("\ndgjhagh\n");
     // File Handling
     myFile.open("pswdHolder.txt", ios::out);
     if(myFile.is_open()) {
