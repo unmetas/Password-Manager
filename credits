@@ -1,0 +1,5 @@
+This is just a credits thing from websites I used throughout this project that taught me something valuable.
+
+Code used in main.cpp for functions to display content in a file, and search for a string was from this website:
+https://www.w3resource.com/cpp-exercises/file-handling/cpp-file-handling-exercise-11.php#:~:text=The%20function%20searchAndDisplayLineNumbers()%20takes,line%20using%20std%3A%3Agetline.
+

@@ -2,5 +2,3 @@ Usernames and Password Managment
 balls:asd
 balls:rswhysjh
 meta:balls
-meta:cat
-cats:meta
